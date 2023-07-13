@@ -1,4 +1,4 @@
-<template lang="">
+<template>
   <header>
     <nav class="primary-nav" data-visible="false">
       <ul>
@@ -10,11 +10,9 @@
   </header>
 </template>
 
-<script>
-export default {}
-</script>
+<script setup></script>
 
-<style lang="">
+<style scoped>
 .primary-nav {
   display: flex;
   justify-content: center;
