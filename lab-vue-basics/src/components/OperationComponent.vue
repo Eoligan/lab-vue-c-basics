@@ -1,7 +1,7 @@
 <template>
   <div>
     <p>{{ 2 + 2 }}</p>
-    <p>Function: {{ getString() }}</p>
+    <p>Function: {{ getString }}</p>
   </div>
 </template>
 
@@ -14,7 +14,7 @@ const author = ref({
 })
 
 const getString = computed(() => {
-  return `${author.value.name} has these books:` // ${author.value.books}`
+  return `${author.value.name} has these books: ${author.value.books}`
 })
 </script>
 
